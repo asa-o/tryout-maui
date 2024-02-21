@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace tryout_maui
+namespace tryoiutmaui
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

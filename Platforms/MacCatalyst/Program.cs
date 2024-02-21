@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace tryout_maui
+namespace tryoiutmaui
 {
     public class Program
     {

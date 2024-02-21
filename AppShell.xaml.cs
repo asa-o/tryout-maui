@@ -1,4 +1,4 @@
-﻿namespace tryout_maui
+﻿namespace tryoiutmaui
 {
     public partial class AppShell : Shell
     {
