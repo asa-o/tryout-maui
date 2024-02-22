@@ -1,4 +1,6 @@
-﻿namespace tryoiutmaui
+﻿using tryoiutmaui.pages;
+
+namespace tryoiutmaui
 {
     public partial class MainPage : ContentPage
     {
@@ -19,6 +21,11 @@
                 CounterBtn.Text = $"Clicked {count} times";
 
             SemanticScreenReader.Announce(CounterBtn.Text);
+        }
+
+        private void OnGotoChatClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new OpenAiChat());
         }
     }
 
