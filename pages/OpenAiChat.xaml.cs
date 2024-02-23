@@ -7,10 +7,10 @@ namespace tryoiutmaui.pages;
 
 public partial class OpenAiChat : ContentPage
 {
-	public OpenAiChat()
-	{
-		InitializeComponent();
-	}
+    public OpenAiChat()
+    {
+        InitializeComponent();
+    }
 
     private string _inputQuery = "";
 
